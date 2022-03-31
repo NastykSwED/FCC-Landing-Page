@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/5c8e83b77b.js" crossorigin="anonymous"></script>
+
+    <title>Product Landing Page</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header id="header">
+            <div class="header-logo">
+                <img id="header-img" src="imgs/html-coding.png" alt="Logo">
+                <h1>Devs</h1>
+            </div>
+
+            <nav id="nav-bar">
+                <ul>
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#features" class="nav-link">Features</a></li>
+                    <li><a href="#how_it_works" class="nav-link">How its works</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main id="main-content">
+            <section id="home">
+                <div class="home-logo">
+                    <img src="imgs/html-coding.png" alt="Logo">
+                </div>
+                <div class="home-text">
+                    <p>Welcome to Devs</p>
+                </div>
+            </section>
+
+            <section id="features">
+                <div class="features-group">
+                    <div class="icon">
+                        <i class="fa-solid fa-chart-line"></i>
+                    </div>
+                    <div class="text">
+                        <h2>Premium Designs</h2>
+                        <p>Our websites use The Best Web Design Tools to deliver a Premium Product. </p>
+                    </div>
+                </div>
+                <div class="features-group">
+                    <div class="icon">
+                        <i class="fa-solid fa-truck"></i>
+                    </div>
+                    <div class="text-2">
+                        <h2>Fast Shipping</h2>
+                        <p>We make sure you recieve your website as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+                    </div>
+                </div>
+                <div class="features-group">
+                    <div class="icon">
+                        <i class="fa-solid fa-code-branch"></i>
+                    </div>
+                    <div class="text">
+                        <h2>Quality Assurance</h2>
+                        <p>For every purchase you make, we will ensure there are no errors and we will check and test your website.</p>
+                    </div>
+                </div>
+            </section>
+            <section id="how_it_works">
+                <div class="text">
+                    <h2>You can Learn with us:</h2>
+                </div>
+                <div class="video">
+                    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/lAOkx2yZESY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </section>
+            <section id="contact">
+                <div class="form-container">
+                    <div class="form-title">
+                        <h2>Contact us</h2>
+                    </div>
+                    <div class="form-content">
+                        <form action="https://www.reecodecamp.com/email-submit" method="get" id="form">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" name="user_name" id="name" placeholder="Enter your Name">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" name="email" id="email" placeholder="Enter your Email" required>
+                            </div>
+
+                            <div class="form-group">
+                                <p>Send us a message</p>
+                                <textarea name="user_msg" id="message" placeholder="Enter your message..."></textarea>
+                            </div>
+
+                            <div class="form-group">
+                                <button type="submit" id="submit" class="btn-submit">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer id="footer">
+            <div class="footer-nav">
+                <ul>
+                    <li><a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="https://github.com/"><i class="fa-brands fa-github"></i></a></li>
+                    <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+            </div>
+
+            <div class="footer-text">
+                <p>Copyright 2022, Devs</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
